@@ -2,6 +2,8 @@
 
 This project demonstrates the usage of different image formats (JPEG, PNG, WebP, and AVIF) using Vite's image optimization capabilities through the vite-imagetools plugin. It serves as a practical comparison of file sizes and quality across common web image formats.
 
+![image](https://github.com/user-attachments/assets/7e1df82f-8e27-407c-a9f6-9f76adc1c3c3)
+
 ## Image Formats Overview
 
 ### JPEG
