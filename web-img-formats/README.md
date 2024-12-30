@@ -93,6 +93,19 @@ Query Parameters:
    - Modern sites → AVIF with WebP fallback
    - Legacy support → Include JPEG/PNG fallback
 
+4. **Using Picture Element for Format Fallbacks**
+   ```html
+   <picture>
+     <source srcset="image.avif" type="image/avif">
+     <source srcset="image.webp" type="image/webp">
+     <img src="image.jpg" alt="Description" loading="lazy">
+   </picture>
+   ```
+   - Browsers will use the first supported format
+   - AVIF takes priority, falls back to WebP, then JPEG
+   - Always include alt text for accessibility
+   - Consider adding loading="lazy" for performance
+
 ## Development
 
 1. Install dependencies:
