@@ -10,7 +10,6 @@ import jpeg_nerd from "./assets/sample.jpg?w=250&h=250&format=jpeg";
 // @ts-ignore
 import png_nerd from "./assets/sample.jpg?w=250&h=250&format=png";
 
-import "./App.css";
 
 function App() {
   return (
